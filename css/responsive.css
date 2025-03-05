@@ -1,0 +1,148 @@
+@media (max-width: 575px) {
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+    header {
+        display: none;
+    }
+    /* nav > .container {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        align-items: center;
+        width: 100%;
+    } */
+    #hero {
+        background-color: #49BBBD;
+        clip-path: circle(203.7% at 50% -61%);
+    }
+    #hero > .container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-text {
+        width: 100%;
+        margin: 0;
+    }
+    .hero-text > h1 {
+        font-size: 36px;
+    }
+    .hero-text > div {
+        flex-direction: column;
+    }
+    .hero-text > div > button {
+        padding: 16px 44px;
+    }
+    .hero-text > p {
+        font-size: 18px;
+        padding: 10px 0 34px 0;
+    }
+    .hero-text > div > div > a {
+        font-size: 23px;
+    }
+    .hero-img > img {
+        width: 95%;
+    }
+    #success > .container {
+        padding: 100px 20px;
+    }
+    #success > .container > p {
+        width: 100%;
+        text-align: center;
+    }
+    #success > .container > div {
+        flex-direction: column;
+        gap: 50px;
+    }
+    #cloud > .container > h3, #cloud > .container > p {
+        text-align: center;
+    }
+    #cloud > .container > p {
+        font-size: 22px;
+    }
+    #cloud > .container > div > div {
+        text-align: center;
+        width: 100%;
+        padding: 117px 40px 52px 40px;
+    }
+    #cloud > .container > div {
+        flex-direction: column;
+        gap: 135px;
+    }
+    #totc > .container > p {
+        width: 100%;
+        font-size: 19px;
+    }
+    #totc > .container > h3 {
+        font-size: 38px;
+    }
+    #class > .container {
+        flex-direction: column;
+    }
+    .class-text {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .class-img {
+        width: 100%;
+    }
+    .class-img:before {
+        height: 107px;
+        width: 107px;
+    }
+    .class-img > img {
+        width: 100%;
+    }
+    .class-img:after {
+        height: 140px;
+        width: 140px;
+    }
+    #feature > .container > p {
+        text-align: center;
+    }
+    #feature > .container > div {
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .feature-text {
+        width: 100%;
+        order: 1;
+        padding: 0 20px;
+    }
+    .feature-img {
+        width: 100%;
+        order: 2;
+    }
+    .feature-img > img {
+        width: 100%;
+    }
+    .feature-text > h2 {
+        font-size: 35px;
+    }
+    .tools-text {
+        width: 100%;
+        padding: 0 20;
+        text-align: center;
+    }
+    #tools > .container, #quiz > .container, #management > .container, #discussion > .container > .discussion-main {
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+    .tools-text > h3 {
+        font-size: 34px;
+    }
+    .tools-text > p {
+        font-size: 18px;
+    }
+    #tools > .container > img {
+        width: 100%;
+    }
+    .quiz-text {
+        width: 100%;
+        padding: 50px 20px;
+    }
+}
