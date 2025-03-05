@@ -190,7 +190,7 @@ nav > .container > ul > li:nth-child(6) > a:last-child {
 .student {
     padding: 135px 154px;
     border-radius: 20px;
-    background: url("/assets/student.png") no-repeat center / cover;
+background: url("/assets/student.png") no-repeat center / cover;
 }
 #totc > .container > div > div > h4 {
     font-size: 32px;
