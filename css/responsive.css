@@ -1,5 +1,4 @@
 @media (max-width: 575px) {
-    /* indext start */
     .container {
         width: 100%;
         padding: 20px;
@@ -310,5 +309,4 @@
     footer > .container {
         padding: 74px 20px 40px 20px;
     }
-    /* index end */
 }   
