@@ -26,6 +26,10 @@ nav > .container > ul {
 nav > .container > ul > li > a {
     font-size: 22px
 }
+nav > .container > ul > li > a:hover {
+    color: gray;
+    /* background-color: rgba(0, 0, 0, 0.26); */
+}
 nav > .container > ul > li:nth-child(6) > a:first-child, nav > .container > ul > li:nth-child(6) {
     display: flex;
     gap: 26px;
@@ -110,4 +114,28 @@ footer > .container > div:last-child > ul > li > a, footer > .container > div:la
 }
 footer > .container > div:last-child > p {
     text-align: center;
+}
+@media (max-width: 575px) {
+    footer > .container > div:first-child {
+        width: 100%;
+    }
+    footer > .container > div:nth-child(2) > h3 {
+        font-size: 20px;
+    }
+    footer > .container > div:nth-child(2) > form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    footer > .container > div:nth-child(2) > form > input {
+        width: 100%;
+        margin: 0;
+    }
+    footer > .container > div:last-child > ul > li > a, footer > .container > div:last-child > p {
+        font-size: 12px;
+    }
+    footer > .container {
+        padding: 74px 20px 40px 20px;
+    }
 }
