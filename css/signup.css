@@ -1,0 +1,112 @@
+/* basic */
+.container {
+    width: 1580px;
+    margin: 0 auto;
+}
+/* signup section */
+section > .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 40px;
+}
+.signup-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 27%;
+    margin: 107px 110px;
+}
+.signup-text > h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+.signup-text > div {
+    background-color: #49BBBD99;
+    height: 59px;
+    width: 329px;
+    border-radius: 33px;
+    padding: 10px 13px;
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0 52px 0;
+}
+.signup-text > div > a {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    width: 146px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-text > div > a:last-child{
+    background-color: #49BBBD;
+    border-radius: 33px;
+}
+.signup-text > p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #5B5B5B;
+    margin-bottom: 42px;
+}
+form > label {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+form > input {
+    width: 100%;
+    border: 1px solid #49BBBD;
+    padding: 15px 31px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #ACACAC;
+    border-radius: 40px;
+    margin: 12px 0 25px 0;
+}
+form > div:nth-child(5) {
+    display: flex;
+    justify-content: space-between;
+}
+form > div:nth-child(5)  > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+form > div > a, form > div > div > label {
+    font-size: 12px;
+    font-weight: 300;
+    color: black;
+}
+form > div:last-child {
+    display: flex;
+    justify-content: end;
+}
+form > div > button {
+    padding: 12px 94px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    border-radius: 36px;
+    border: none;
+    background-color: #49BBBD;
+    margin-top: 62px;
+}
+@media (max-width: 575px) {
+    .container {
+        width: 100%;
+        padding: 133px 22px;
+    }
+    section > .container > img {
+        display: none;
+    }
+    .signup-text {
+        width: 100%;
+        margin: 0;
+    }
+    form > div > button {
+        margin-top: 52px;
+    }
+}
