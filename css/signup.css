@@ -9,6 +9,10 @@ section > .container {
     justify-content: space-between;
     padding: 38px 40px;
 }
+section > .container > img {
+    width: 731px;
+    height: 825px;
+}
 .signup-text {
     display: flex;
     flex-direction: column;
