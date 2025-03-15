@@ -21,7 +21,7 @@ header {
 nav > .container {
     display: flex;
     justify-content: space-between;
-    padding: 31px 0;
+    padding: 3px 0;
     align-items: center;
     width: 1665px;
 }
@@ -49,6 +49,10 @@ nav > .container > ul > li:nth-child(6) > a:first-child, nav > .container > ul >
     justify-content: center;
     align-items: center;
     box-shadow: 0 20px 24px #00000008;
+}
+/* hero section */
+#hero {
+    margin-top: 96px;
 }
 /* footer */
 footer {

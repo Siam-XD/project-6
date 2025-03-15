@@ -4,6 +4,9 @@
     margin: 0 auto;
 }
 /* header */
+header {
+    background-color: white;
+}
 nav > .container > ul > li > a {
     color: #5B5B5B;
 }
@@ -40,7 +43,9 @@ nav > .container > ul > li > a {
     font-weight: 400;
     color: #696984;
 }
-.hero-text > button {
+.hero-text > a {
+    width: 236px;
+    display: block;
     font-size: 16px;
     font-weight: 700;
     color: white;

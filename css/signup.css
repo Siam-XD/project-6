@@ -49,6 +49,10 @@ section > .container > img {
     background-color: #49BBBD;
     border-radius: 33px;
 }
+.signup-text > div > a:first-child:hover{
+    background-color: #49bbbd42;
+    border-radius: 33px;
+}
 .signup-text > p {
     font-size: 16px;
     font-weight: 400;
